@@ -7,7 +7,7 @@ export default function NossoTime(){
         return(
             <div>
             <div id='bgrad' className='h-full mt-8 '>
-                <div className='flex'>
+                <div className='lg:flex'>
                     <h1 className='pb-5 ml-2 mt-12 text-2xl bg-gra'>________</h1>
                     <h1 className='text-primary font-bold text-3xl ml-2 mt-14 mb-12'>Nosso Time</h1>
                 </div>

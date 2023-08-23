@@ -5,8 +5,8 @@ export default function HeroMap() {
   return (
     <div className='  bg-bgrey lg:flex lg:h-50'>
         <div className='w-2/3'>
-          <div className='flex'>
-            <h1 className='pb-5 ml-2 mt-20 text-2xl'>________</h1>
+          <div className='lg:flex '>
+            <h1 className='hidden pb-5 ml-2 mt-20 text-2xl'>________</h1>
           <div className='p-4'>
             <h1 className='text-primary font-bold text-3xl ml-2 mt-14 mb-12'> Estamos em todo o Brasil</h1>
 
