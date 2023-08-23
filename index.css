@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-dots li button:before{
+    opacity: 1 !important;
+    color: #DDA46F !important;
+    
+    
+}
+.slick-dots li.slick-active button:before{
+    color: #002B45 !important;
+}
+#bgrad{
+    background: #F5F5F5;}
+@media screen and (min-width: 1024px) {
+    #bgrad{
+    background: #FCFCFC;
+    background: linear-gradient(90deg, rgba(245,245,245,1) 88%, rgba(245,245,245,1) 88%, rgba(245,245,245,1) 88%, rgba(255,255,255,1) 88%);
+    }   
+}
+
+textarea{
+    background: linear-gradient(0deg, rgba(245,245,246,1) 8%, rgba(255,255,255,1) 8%);
+    background-size: 100% 3ch;
+}
