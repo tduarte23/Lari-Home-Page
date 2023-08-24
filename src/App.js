@@ -1,6 +1,6 @@
 import './App.css';
-import Hero from '../src/components/Hero'
-import Header from '../src/components/header'
+import Hero from './components/Hero'
+import Header from './components/header'
 import Carousel from './components/carousel';
 import HeroMap from './components/heroMap';
 import NossoTime from './components/nossoTime';
@@ -9,6 +9,7 @@ import Slide from './components/Slide';
 import Feedbacks from './components/Feedbacks';
 import Form from './components/Form';
 import Footer from './components/Footer/Index';
+import SmSlide from './components/sm-slide';
 
 function App() {
   return (
@@ -16,9 +17,9 @@ function App() {
       <Header />
       <Hero />
       <HeroMap />
-      <Carousel Sli={<Slide />} />
-      <HeroMap />
-      <Carousel Sli={<Feedbacks />} />
+      <Carousel Sli={<Slide/>}/>
+      <NossoTime />
+      <Carousel Sli={<Feedbacks/>}/>
       <Form />
       <Footer/>
     </>

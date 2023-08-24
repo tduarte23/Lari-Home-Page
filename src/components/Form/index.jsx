@@ -12,24 +12,24 @@ export default function Form() {
                 <div className='lg:flex lg:justify-between'>     
                     <div>
                         <label htmlFor="" className='absolute text-lg text-black font-semibold'>Primeiro Nome </label>
-                        <input type="text" name="" id="" className=' text-lg pt-9 border-b-2 border-bgrey lg:w-80 h-20 focus:outline-none' >
+                        <input type="text" name="" id="" className=' text-lg pt-7 w-1/2 border-b-2 border-bgrey lg:w-80 h-20 focus:outline-none' >
                     </input>
                     </div>
                     <div>
                         <label htmlFor="" className='absolute text-lg text-black font-semibold'>Sobrenome </label>
-                        <input type="text" name="" id="" className='text-lg pt-9 border-b-2 border-bgrey lg:w-80 h-20 focus:outline-none' >
+                        <input type="text" name="" id="" className='text-lg pt-7 w-1/2 border-b-2 border-bgrey lg:w-80 h-20 focus:outline-none' >
                     </input>
                     </div>
                     <div>
                         <label htmlFor="" className='absolute text-lg text-black font-semibold'>Email </label>
-                        <input type="text" name="" id="" className='text-lg pt-9 border-b-2 border-bgrey lg:w-80 h-20 focus:outline-none' >
+                        <input type="text" name="" id="" className='text-lg pt-7 w-1/2 border-b-2 border-bgrey lg:w-80 h-20 focus:outline-none' >
                     </input>
                     </div>
                 </div>
 
                 <div className='my-14'>
                     <label htmlFor="" className='absolute text-lg text-black font-semibold'>Telefone </label>
-                    <input type="number" name="" id="" className='text-lg pt-9 border-b-2 border-bgrey w-full h-20 focus:outline-none' >
+                    <input type="number" name="" id="" className='text-lg pt-7  border-b-2 border-bgrey w-full h-20 focus:outline-none' >
                         </input>
                 </div>
 

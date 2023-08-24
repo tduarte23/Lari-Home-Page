@@ -47,7 +47,7 @@ export default function Footer() {
                     </clipPath>
                   </defs>
                 </svg>
-                <h2 className='text-white'>contato@larissavidal.adv.br</h2>
+                <h2 className='text-white text-xs lg:text-base'>contato@larissavidal.adv.br</h2>
                 
             </div>
       </div>
