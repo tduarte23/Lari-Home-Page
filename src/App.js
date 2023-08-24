@@ -17,7 +17,7 @@ function App() {
       <Hero />
       <HeroMap />
       <Carousel Sli={<Slide />} />
-      <NossoTime/>
+      <HeroMap />
       <Carousel Sli={<Feedbacks />} />
       <Form />
       <Footer/>
